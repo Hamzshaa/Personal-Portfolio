@@ -195,7 +195,9 @@ function Services() {
 
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">
+                    Implementing responsive and accessible designs.
+                  </p>
                 </li>
 
                 <li className="services__modal-service grid">
@@ -214,7 +216,7 @@ function Services() {
 
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
-                  <p classNa me="services__modal-info">
+                  <p className="services__modal-info">
                     Keeping up with design trends and tools.
                   </p>
                 </li>
