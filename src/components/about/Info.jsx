@@ -9,13 +9,13 @@ function Info() {
       <div className="about__box">
         <FiAward className="about__icon" />
         <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">8 Years Working</span>
+        <span className="about__subtitle">Junior level</span>
       </div>
 
       <div className="about__box">
         <IoBriefcaseOutline className="about__icon" />
         <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">48 + Projects</span>
+        <span className="about__subtitle">4+ Projects</span>
       </div>
 
       <div className="about__box">

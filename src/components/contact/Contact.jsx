@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { RiMailSendLine } from "react-icons/ri";
 
 import { IoLogoWhatsapp } from "react-icons/io5";
-import { FaFacebookMessenger } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 
 function Contact() {
   const form = useRef();
@@ -37,7 +37,7 @@ function Contact() {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">trident32000@gmail.com</span>
               <a
-                href="mailto:examplemail@gmail.com.com"
+                href="mailto:trident32000@gmail.com.com"
                 className="contact__button"
               >
                 Write me <FaArrowRight className="contact__button-icon" />{" "}
@@ -50,7 +50,7 @@ function Contact() {
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+251 92 924 8080</span>
               <a
-                href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=+251929248080&text=Hello, more information!"
                 className="contact__button"
               >
                 Write me <FaArrowRight className="contact__button-icon" />{" "}
@@ -59,10 +59,10 @@ function Contact() {
 
             <div className="contact__card">
               {/* contact__card-icon */}
-              <FaFacebookMessenger className="contact__card-icon" />
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.fb123</span>
-              <a href="https://m.me/crypticalcoder" className="contact__button">
+              <FaTelegramPlane className="contact__card-icon" />
+              <h3 className="contact__card-title">Telegram</h3>
+              <span className="contact__card-data">t.me/Hamzshaa</span>
+              <a href="https://t.me/Hamzshaa" className="contact__button">
                 Write me <FaArrowRight className="contact__button-icon" />{" "}
               </a>
             </div>

@@ -22,7 +22,7 @@ function Services() {
           <div>
             <CiGrid31 className="services__icon" />
             <h3 className="services__title">
-              Product <br /> Designer
+              Front-end <br /> Developer
             </h3>
           </div>
 
@@ -42,43 +42,45 @@ function Services() {
                 className="services__modal-close"
                 onClick={() => toggleTab(0)}
               />
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Front-end developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                I specialize in front-end development, which encompasses the
+                following areas:
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service grid">
-                  <IoCheckmarkCircleOutline className="services__modal-icon" />
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-service grid">
-                  <IoCheckmarkCircleOutline className="services__modal-icon" />
-                  <p className="services__modal-info">
-                    I create ux element interactions.
+                    I develop responsive and interactive user interfaces.
                   </p>
                 </li>
 
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p className="services__modal-info">
-                    I position your company brand.
+                    I write clean and maintainable front-end code.
                   </p>
                 </li>
 
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    I implement front-end frameworks and libraries.
+                  </p>
+                </li>
+
+                <li className="services__modal-service grid">
+                  <IoCheckmarkCircleOutline className="services__modal-icon" />
+                  <p className="services__modal-info">
+                    I optimizing website performance.
+                  </p>
+                </li>
+
+                <li className="services__modal-service grid">
+                  <IoCheckmarkCircleOutline className="services__modal-icon" />
+                  <p className="services__modal-info">
+                    I stay updated with front-end trends and technologies.
                   </p>
                 </li>
               </ul>
@@ -88,9 +90,9 @@ function Services() {
 
         <div className="services__content">
           <div>
-            <IoCodeSharp className="services__icon" />
+            <FaRegEdit className="services__icon" />
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Back-end <br /> Developer
             </h3>
           </div>
 
@@ -110,43 +112,43 @@ function Services() {
                 className="services__modal-close"
                 onClick={() => toggleTab(0)}
               />
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
+              <h3 className="services__modal-title">Back-end Developer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                I specialize in back-end development, which encompasses the
+                following areas:
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Designing and developing server-side logic.
                   </p>
                 </li>
 
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Building RESTful APIs.</p>
                 </li>
 
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-service grid">
-                  <IoCheckmarkCircleOutline className="services__modal-icon" />
-                  <p className="services__modal-info">
-                    I position your company brand.
+                    Working with databases.
                   </p>
                 </li>
 
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Integrating third-party services.
+                  </p>
+                </li>
+
+                <li className="services__modal-service grid">
+                  <IoCheckmarkCircleOutline className="services__modal-icon" />
+                  <p className="services__modal-info">
+                    Optimizing backend performance.
                   </p>
                 </li>
               </ul>
@@ -156,9 +158,9 @@ function Services() {
 
         <div className="services__content">
           <div>
-            <FaRegEdit className="services__icon" />
+            <IoCodeSharp className="services__icon" />
             <h3 className="services__title">
-              Visual <br /> Designer
+              Ui/Ux <br /> Designer
             </h3>
           </div>
 
@@ -178,17 +180,16 @@ function Services() {
                 className="services__modal-close"
                 onClick={() => toggleTab(0)}
               />
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">UI / UX Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                I specialize in UI/UX, which encompasses the following areas:
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Crafting visually appealing interfaces.
                   </p>
                 </li>
 
@@ -200,21 +201,21 @@ function Services() {
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p className="services__modal-info">
-                    I create ux element interactions.
+                    Applying user-centered design principles.
                   </p>
                 </li>
 
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Creating wireframes and prototypes.
                   </p>
                 </li>
 
                 <li className="services__modal-service grid">
                   <IoCheckmarkCircleOutline className="services__modal-icon" />
                   <p classNa me="services__modal-info">
-                    Design and mockups of products for companies.
+                    Keeping up with design trends and tools.
                   </p>
                 </li>
               </ul>

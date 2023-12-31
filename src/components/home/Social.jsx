@@ -1,26 +1,35 @@
 import React from "react";
-import { FaInstagram, FaDribbble } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
+import { TbBrandTelegram } from "react-icons/tb";
+import { IoLogoWhatsapp } from "react-icons/io5";
 
 function Social() {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/"
+        href="https://api.whatsapp.com/send?phone=+251929248080&text=Hello, more information!"
         className="home__social-icon"
         target="_blank"
       >
-        <FaInstagram />
+        <IoLogoWhatsapp />
       </a>
       <a
-        href="https://dribbble.com/"
+        href="https://t.me/Hamzshaa"
         className="home__social-icon"
         target="_blank"
       >
-        <FaDribbble />
+        <TbBrandTelegram />
       </a>
       <a
-        href="https://github.com/"
+        href="https://www.linkedin.com/in/hamza-jhad-ba5b36291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <FaLinkedin />
+      </a>
+      <a
+        href="https://github.com/Hamzshaa/"
         className="home__social-icon"
         target="_blank"
       >
