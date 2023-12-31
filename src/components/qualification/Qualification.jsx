@@ -52,14 +52,16 @@ function Qualification() {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">
+                  Bachelor of Science in Computer Science
+                </h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Addis Ababa University - 4 Kilo Campus
                 </span>
 
                 <div className="qualification__calender">
                   <LuCalendarDays />
-                  2021 - Present
+                  2022 - 2025
                 </div>
               </div>
 
@@ -78,28 +80,30 @@ function Qualification() {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">
+                  Evangadi MERN Stack Boot Camp{" "}
+                </h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Evangadi - Boot camp
                 </span>
 
                 <div className="qualification__calender">
                   <LuCalendarDays />
-                  2020 - 2021
+                  2023 - 2024
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">UX/UI Designing</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  RDX - startup company
                 </span>
 
                 <div className="qualification__calender">
                   <LuCalendarDays />
-                  2018 - 2020
+                  2023
                 </div>
               </div>
 
@@ -109,7 +113,7 @@ function Qualification() {
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -128,7 +132,7 @@ function Qualification() {
                   2017 - 2018
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div
@@ -138,7 +142,10 @@ function Qualification() {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
+            <div className="center">
+              I currently do not have any prior experience at the moment
+            </div>
+            {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Product Designer</h3>
                 <span className="qualification__subtitle">
@@ -193,7 +200,7 @@ function Qualification() {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -80,6 +80,12 @@
   transform: translate(6px, -7px);
 }
 
+.center {
+  width: 250px;
+  margin-inline: auto;
+  text-align: center;
+}
+
 /* ============Breakpoints=========== */
 /* for large devices */
 @media screen and (max-width: 992px) {
