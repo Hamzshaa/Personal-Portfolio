@@ -4,6 +4,8 @@ import { FiGithub } from "react-icons/fi";
 import { TbBrandTelegram } from "react-icons/tb";
 import { IoLogoWhatsapp } from "react-icons/io5";
 
+import { FaTelegram } from "react-icons/fa";
+
 function Social() {
   return (
     <div className="home__social">
@@ -19,7 +21,7 @@ function Social() {
         className="home__social-icon"
         target="_blank"
       >
-        <TbBrandTelegram />
+        <FaTelegram />
       </a>
       <a
         href="https://www.linkedin.com/in/hamza-jhad-ba5b36291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"

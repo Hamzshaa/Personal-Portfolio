@@ -1,6 +1,9 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { TbBrandTelegram } from "react-icons/tb";
+import { IoLogoWhatsapp } from "react-icons/io5";
 
 function Footer() {
   return (
@@ -30,30 +33,37 @@ function Footer() {
 
         <div className="footer__social">
           <a
-            href="https://www.facebook.com/"
-            className="footer__social-link"
+            href="https://t.me/Hamzshaa"
+            className="home__social-icon"
             target="_blank"
           >
-            <FaFacebookF />
+            <TbBrandTelegram />
           </a>
           <a
-            href="https://www.instagram.com/"
-            className="footer__social-link"
+            href="https://api.whatsapp.com/send?phone=+251929248080&text=Hello, more information!"
+            className="home__social-icon"
             target="_blank"
           >
-            <FaInstagram />
+            <IoLogoWhatsapp />
           </a>
           <a
-            href="https://twitter.com/"
-            className="footer__social-link"
+            href="https://www.linkedin.com/in/hamza-jhad-ba5b36291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            className="home__social-icon"
             target="_blank"
           >
-            <FaTwitter />
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/Hamzshaa/"
+            className="home__social-icon"
+            target="_blank"
+          >
+            <FiGithub />
           </a>
         </div>
 
         <span className="footer__copy">
-          &#169; Crypticalcoder. Allrights reserved
+          &#169; Hamza Jhad. All rights reserved
         </span>
       </div>
     </footer>
