@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/profile.jpg";
 import CV from "../../assets/John-Cv.pdf";
 import Info from "./Info";
 
@@ -12,12 +12,14 @@ function About() {
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
-        <div className="about_data">
+        <div className="about__data">
           <Info />
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            As a Full-stack developer, I specialize in utilizing modern web
+            frameworks to create dynamic and engaging web pages with a strong
+            emphasis on UI/UX user interface. I am passionate about leveraging
+            the latest technologies to deliver cutting-edge projects that exceed
+            client expectations.
           </p>
 
           <a download="" href={CV} className="button button--flex">
