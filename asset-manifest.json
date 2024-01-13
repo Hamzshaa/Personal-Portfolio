@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.b05c733a.css",
-    "main.js": "/Personal-Portfolio/static/js/main.9c38ac99.js",
+    "main.css": "/Personal-Portfolio/static/css/main.e5dad358.css",
+    "main.js": "/Personal-Portfolio/static/js/main.391d23af.js",
+    "static/media/cheap_delala.png": "/Personal-Portfolio/static/media/cheap_delala.a19743ac3f052a66d3ae.png",
     "static/media/CV.pdf": "/Personal-Portfolio/static/media/CV.ed3660e11cba65235b6d.pdf",
+    "static/media/blog100.jpg": "/Personal-Portfolio/static/media/blog100.747f378d89ed88d45bb5.jpg",
+    "static/media/trident_blog.png": "/Personal-Portfolio/static/media/trident_blog.aadd20545095b56cd248.png",
     "static/media/profile.jpg": "/Personal-Portfolio/static/media/profile.7d603a7b05c322543a79.jpg",
     "static/media/testimonial3.png": "/Personal-Portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
     "static/media/testimonial2.png": "/Personal-Portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/Personal-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.b05c733a.css.map": "/Personal-Portfolio/static/css/main.b05c733a.css.map",
-    "main.9c38ac99.js.map": "/Personal-Portfolio/static/js/main.9c38ac99.js.map"
+    "main.e5dad358.css.map": "/Personal-Portfolio/static/css/main.e5dad358.css.map",
+    "main.391d23af.js.map": "/Personal-Portfolio/static/js/main.391d23af.js.map"
   },
   "entrypoints": [
-    "static/css/main.b05c733a.css",
-    "static/js/main.9c38ac99.js"
+    "static/css/main.e5dad358.css",
+    "static/js/main.391d23af.js"
   ]
 }
