@@ -143,7 +143,7 @@ function Qualification() {
             }
           >
             <div className="center">
-              I currently do not have any prior experience at the moment
+              I currently do not have any prior job experience.
             </div>
             {/* <div className="qualification__data">
               <div>

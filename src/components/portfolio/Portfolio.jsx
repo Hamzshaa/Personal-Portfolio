@@ -3,7 +3,7 @@ import "./portfolio.css";
 
 import img from "../../assets/blog100.jpg";
 import blogLogo from "../../assets/trident_blog.png";
-import cheapDelalaLogo from "../../assets/cheap_delala.png";
+import cheapDelalaLogo from "../../assets/CheapDelala-logo.png";
 
 import { IoLogoGithub } from "react-icons/io5";
 import { FiExternalLink } from "react-icons/fi";
