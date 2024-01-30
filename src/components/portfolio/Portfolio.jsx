@@ -69,8 +69,8 @@ export default function Portfolio() {
                   Github
                 </a>
               </div>
-              <div className="portfolio__online disabled">
-                <a href="" target="_blank">
+              <div className="portfolio__online">
+                <a href="https://trident-blog.web.app/" target="_blank">
                   <FiExternalLink className="portfolio__button-icon " />
                   Online
                 </a>
