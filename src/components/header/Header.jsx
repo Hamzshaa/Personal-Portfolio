@@ -20,7 +20,9 @@ function Header() {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Hamza
+          ham
+          <span className="nav__zz">zz</span>
+          sha
         </a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>

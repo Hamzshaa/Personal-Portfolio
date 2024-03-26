@@ -23,11 +23,7 @@ export default function Portfolio() {
                 Technologies Used
                 <li>
                   <IoCheckboxOutline className="portfolio__check-icon" />
-                  Html
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  CSS
+                  Html/CSS
                 </li>
                 <li>
                   <IoCheckboxOutline className="portfolio__check-icon" />
@@ -40,6 +36,10 @@ export default function Portfolio() {
                 <li>
                   <IoCheckboxOutline className="portfolio__check-icon" />
                   MongoDB
+                </li>
+                <li>
+                  <IoCheckboxOutline className="portfolio__check-icon" />
+                  Google Authentication
                 </li>
                 <li>
                   <IoCheckboxOutline className="portfolio__check-icon" />
@@ -61,16 +61,16 @@ export default function Portfolio() {
             </div>
             <div className="portfolio__buttons">
               <div className="portfolio__github">
-                <a
-                  href="https://github.com/Hamzshaa/react-blog-page"
-                  target="_blank"
-                >
+                <a href="https://github.com/Hamzshaa/mern-blog" target="_blank">
                   <IoLogoGithub className="portfolio__button-icon" />
                   Github
                 </a>
               </div>
               <div className="portfolio__online">
-                <a href="https://trident-blog.web.app/" target="_blank">
+                <a
+                  href="https://trident-mern-blog.onrender.com"
+                  target="_blank"
+                >
                   <FiExternalLink className="portfolio__button-icon " />
                   Online
                 </a>

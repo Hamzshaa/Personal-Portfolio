@@ -21,6 +21,18 @@
   font-weight: var(--font-medium);
 }
 
+.nav__zz {
+  font-weight: 900;
+  font-size: 1.3rem;
+  letter-spacing: -2px;
+  margin-left: 0px;
+  margin-right: 2px;
+}
+
+.nav__logo:hover .nav__zz {
+  color: var(--title-color-dark);
+}
+
 .nav__list {
   display: flex;
   column-gap: 2rem;
