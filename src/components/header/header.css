@@ -23,11 +23,10 @@
 
 .nav__zz {
   font-weight: 900;
-  font-size: 4.3rem;
-  letter-spacing: -8px;
-  margin-left: 10px;
-  margin-right: 12px;
-  color: rgb(254, 170, 1);
+  font-size: 1.3rem;
+  letter-spacing: -2px;
+  margin-left: 0px;
+  margin-right: 2px;
 }
 
 .nav__logo:hover .nav__zz {
