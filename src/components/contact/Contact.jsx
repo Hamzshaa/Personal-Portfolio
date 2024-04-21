@@ -37,7 +37,7 @@ function Contact() {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">trident32000@gmail.com</span>
               <a
-                href="mailto:trident32000@gmail.com.com"
+                href="mailto:trident32000@gmail.com"
                 className="contact__button"
               >
                 Write me <FaArrowRight className="contact__button-icon" />{" "}
