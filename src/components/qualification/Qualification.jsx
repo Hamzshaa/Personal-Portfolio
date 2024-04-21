@@ -94,7 +94,7 @@ function Qualification() {
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">UX/UI Designing</h3>
                 <span className="qualification__subtitle">
@@ -111,7 +111,7 @@ function Qualification() {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
 
             {/* <div className="qualification__data">
               <div></div>
@@ -142,19 +142,20 @@ function Qualification() {
                 : "qualification__content"
             }
           >
-            <div className="center">
+            {/* <div className="center">
               I currently do not have any prior job experience.
-            </div>
-            {/* <div className="qualification__data">
+            </div> */}
+
+            {/* ---------- */}
+
+            <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
-                <span className="qualification__subtitle">
-                  Microsoft - Spain
-                </span>
+                <h3 className="qualification__title">UX/UI Designer</h3>
+                <span className="qualification__subtitle">RDX (Intern)</span>
 
                 <div className="qualification__calender">
                   <LuCalendarDays />
-                  2021 - Present
+                  2023
                 </div>
               </div>
 
@@ -164,7 +165,7 @@ function Qualification() {
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -201,6 +202,8 @@ function Qualification() {
                 <span className="qualification__line"></span>
               </div>
             </div> */}
+
+            {/* --------------- */}
           </div>
         </div>
       </div>
