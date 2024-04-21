@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.a35d0b37.css",
-    "main.js": "/Personal-Portfolio/static/js/main.17707216.js",
+    "main.css": "/Personal-Portfolio/static/css/main.6ef8237f.css",
+    "main.js": "/Personal-Portfolio/static/js/main.8041a63c.js",
     "static/media/Hamza_Jhad.pdf": "/Personal-Portfolio/static/media/Hamza_Jhad.9b64c73ddfc3afecd733.pdf",
     "static/media/blog100.jpg": "/Personal-Portfolio/static/media/blog100.747f378d89ed88d45bb5.jpg",
     "static/media/trident_blog.png": "/Personal-Portfolio/static/media/trident_blog.aadd20545095b56cd248.png",
@@ -10,11 +10,11 @@
     "static/media/testimonial2.png": "/Personal-Portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/Personal-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.a35d0b37.css.map": "/Personal-Portfolio/static/css/main.a35d0b37.css.map",
-    "main.17707216.js.map": "/Personal-Portfolio/static/js/main.17707216.js.map"
+    "main.6ef8237f.css.map": "/Personal-Portfolio/static/css/main.6ef8237f.css.map",
+    "main.8041a63c.js.map": "/Personal-Portfolio/static/js/main.8041a63c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a35d0b37.css",
-    "static/js/main.17707216.js"
+    "static/css/main.6ef8237f.css",
+    "static/js/main.8041a63c.js"
   ]
 }
