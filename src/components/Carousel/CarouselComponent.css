@@ -1,0 +1,9 @@
+.Carouse__img-wrapper {
+  height: 400px;
+}
+
+.carousel__img {
+  height: 100%;
+  width: fit-content;
+  object-fit: contain;
+}

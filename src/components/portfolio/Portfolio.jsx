@@ -1,14 +1,18 @@
 import React from "react";
 import "./portfolio.css";
 
-import img from "../../assets/blog100.jpg";
-import blogLogo from "../../assets/trident_blog.png";
-import cheapDelalaLogo from "../../assets/CheapDelala-logo.png";
-import metshaftLogo from "../../assets/Metshaft.png";
+// import img from "../../assets/blog100.jpg";
+// import blogLogo from "../../assets/trident_blog.png";
+// import cheapDelalaLogo from "../../assets/CheapDelala-logo.png";
+// import metshaftLogo from "../../assets/Metshaft.png";
 
 import { IoLogoGithub } from "react-icons/io5";
 import { FiExternalLink } from "react-icons/fi";
-import { IoCheckboxOutline } from "react-icons/io5";
+// import { IoCheckboxOutline } from "react-icons/io5";
+// import { Carousel } from "react-responsive-carousel";
+import CarouselComponent from "../Carousel/CarouselComponent";
+import { metshaftImg } from "../Carousel/trident-metshaft/data";
+import { cheapDelalaImg } from "../Carousel/CheapDelala/data";
 
 export default function Portfolio() {
   return (
@@ -17,71 +21,7 @@ export default function Portfolio() {
       <span className="section__subtitle">my portfolios</span>
       <div className="portfolio__container container grid">
         <div className="portfolio__content">
-          {/* <div className="portfolio__img blog-portfolio">
-            <img src={blogLogo} alt="" className="blur zoom" />
-            <div className="portfolio__technologies fade">
-              <div className="portfolio__tools">
-                Technologies Used
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  Html/CSS
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  React
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  Express JS
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  MongoDB
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  Google Authentication
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  and others...
-                </li>
-              </div>
-            </div>
-          </div> */}
-
-          <div className="portfolio__img blog-portfolio">
-            <img src={metshaftLogo} alt="" className="blur zoom" />
-            <div className="portfolio__technologies fade">
-              <div className="portfolio__tools">
-                Technologies Used
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  Html/CSS
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  React
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  Express JS
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  MongoDB
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  Google Authentication
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  and others...
-                </li>
-              </div>
-            </div>
-          </div>
+          <CarouselComponent img={metshaftImg} />
 
           <div className="portfolio__info">
             <div className="">
@@ -114,38 +54,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="portfolio__content">
-          <div className="portfolio__img">
-            <img src={cheapDelalaLogo} alt="" className="blur zoom" />
-            <div className="portfolio__technologies fade">
-              <div className="portfolio__tools">
-                Technologies Used
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  Html
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  CSS
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  React
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  Express Js
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  MongoDB
-                </li>
-                <li>
-                  <IoCheckboxOutline className="portfolio__check-icon" />
-                  and others...
-                </li>
-              </div>
-            </div>
-          </div>
+          <CarouselComponent img={cheapDelalaImg} />
 
           <div className="portfolio__info">
             <div className="">

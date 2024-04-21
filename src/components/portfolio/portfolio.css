@@ -1,3 +1,7 @@
+.portfolio {
+  margin-top: 1rem;
+}
+
 .portfolio__container {
   grid-template-columns: repeat(2, 400px);
   justify-content: center;
@@ -24,6 +28,7 @@
   margin-bottom: var(--mb-2-5);
 }
 
+.yehone,
 .portfolio__img img {
   width: inherit;
   height: 100%;
@@ -33,7 +38,7 @@
 }
 
 .blog-portfolio {
-  background: rgba(220, 161, 0, 0.768);
+  /* background: rgba(220, 161, 0, 0.768); */
 }
 
 .portfolio__technologies {
