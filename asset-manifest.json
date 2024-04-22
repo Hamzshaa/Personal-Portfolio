@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.0d7809ca.css",
-    "main.js": "/Personal-Portfolio/static/js/main.7db5c28f.js",
+    "main.css": "/Personal-Portfolio/static/css/main.0d183cff.css",
+    "main.js": "/Personal-Portfolio/static/js/main.f07e8f72.js",
     "static/media/Hamza_Jhad.pdf": "/Personal-Portfolio/static/media/Hamza_Jhad.9b64c73ddfc3afecd733.pdf",
-    "static/media/blog100.jpg": "/Personal-Portfolio/static/media/blog100.747f378d89ed88d45bb5.jpg",
-    "static/media/trident_blog.png": "/Personal-Portfolio/static/media/trident_blog.aadd20545095b56cd248.png",
+    "static/media/d2.jpg": "/Personal-Portfolio/static/media/d2.3b06beb8daf083c0cc4d.jpg",
+    "static/media/d3.jpg": "/Personal-Portfolio/static/media/d3.6906e78d5ffeff41cc8f.jpg",
+    "static/media/d4.jpg": "/Personal-Portfolio/static/media/d4.7fe70db2f2788baf3d56.jpg",
+    "static/media/d1.jpg": "/Personal-Portfolio/static/media/d1.13da146650495a123fb0.jpg",
+    "static/media/d5.jpg": "/Personal-Portfolio/static/media/d5.29eef49d7e719b58d4a3.jpg",
+    "static/media/d6.jpg": "/Personal-Portfolio/static/media/d6.a413f74ce11b6121819d.jpg",
     "static/media/profile.jpg": "/Personal-Portfolio/static/media/profile.7d603a7b05c322543a79.jpg",
+    "static/media/m1.jpg": "/Personal-Portfolio/static/media/m1.e96b51220191c177dac0.jpg",
+    "static/media/m2.jpg": "/Personal-Portfolio/static/media/m2.fa52007aa0044d2e190f.jpg",
     "static/media/testimonial3.png": "/Personal-Portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
-    "static/media/Metshaft.png": "/Personal-Portfolio/static/media/Metshaft.b51e30955acf1cf98f65.png",
     "static/media/testimonial2.png": "/Personal-Portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/Personal-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.0d7809ca.css.map": "/Personal-Portfolio/static/css/main.0d7809ca.css.map",
-    "main.7db5c28f.js.map": "/Personal-Portfolio/static/js/main.7db5c28f.js.map"
+    "main.0d183cff.css.map": "/Personal-Portfolio/static/css/main.0d183cff.css.map",
+    "main.f07e8f72.js.map": "/Personal-Portfolio/static/js/main.f07e8f72.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d7809ca.css",
-    "static/js/main.7db5c28f.js"
+    "static/css/main.0d183cff.css",
+    "static/js/main.f07e8f72.js"
   ]
 }
