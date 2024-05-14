@@ -102,6 +102,7 @@
 .portfolio__title {
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-0-5);
+  margin-top: var(--mb-0-5);
   /* margin-left: var(--mb-0-25); */
 }
 
@@ -150,6 +151,24 @@
 
 .portfolio__online a {
   color: var(--container-color);
+}
+
+.see-more__button {
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: var(--font-medium);
+}
+
+.see-more__button a {
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+.see-more__button a:hover {
+  color: var(--title-color-dark);
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 992px) {

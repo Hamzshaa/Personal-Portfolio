@@ -12,26 +12,24 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Portfolio from "./components/portfolio/Portfolio";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./pages/Main";
+import Portfolios from "./pages/Portfolios";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
 
-      <main className="main">
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Portfolio />
-        {/* <Testimonials /> */}
-        <Contact />
-      </main>
+      <Routes>
+        <Route path="/" element={<Main />} />
+
+        <Route path="/portfolios" element={<Portfolios />} />
+      </Routes>
 
       <Footer />
       <ScrollUp />
-    </>
+    </BrowserRouter>
   );
 }
 

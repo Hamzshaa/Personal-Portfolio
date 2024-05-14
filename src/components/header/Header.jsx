@@ -6,6 +6,7 @@ import { IoBriefcaseOutline, IoImageOutline } from "react-icons/io5";
 import { BiMailSend } from "react-icons/bi";
 import { TbApps } from "react-icons/tb";
 import { LiaTimesSolid } from "react-icons/lia";
+import { Link } from "react-router-dom";
 
 function Header() {
   window.addEventListener("scroll", function () {
@@ -19,17 +20,17 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
+        <Link to="/" className="nav__logo">
           ham
           <span className="nav__zz">zz</span>
           sha
-        </a>
+        </Link>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a
-                href="#home"
+              <Link
+                to="/#home"
                 onClick={() => setActiveNav("#home")}
                 className={
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
@@ -37,11 +38,11 @@ function Header() {
               >
                 <AiOutlineHome className="nav__icon" />
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
               <a
-                href="#about"
+                href="/#about"
                 onClick={() => setActiveNav("#about")}
                 className={
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
@@ -53,7 +54,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <a
-                href="#skills"
+                href="/#skills"
                 onClick={() => setActiveNav("#skills")}
                 className={
                   activeNav === "#skills"
@@ -67,7 +68,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <a
-                href="#services"
+                href="/#services"
                 onClick={() => setActiveNav("#services")}
                 className={
                   activeNav === "#services"
@@ -80,8 +81,8 @@ function Header() {
               </a>
             </li>
             <li className="nav__item">
-              <a
-                href="#portfolio"
+              <Link
+                to="/portfolios"
                 onClick={() => setActiveNav("#portfolio")}
                 className={
                   activeNav === "#portfolio"
@@ -91,11 +92,11 @@ function Header() {
               >
                 <IoImageOutline className="nav__icon" />
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
               <a
-                href="#contact"
+                href="/#contact"
                 onClick={() => setActiveNav("#contact")}
                 className={
                   activeNav === "#contact"

@@ -5,7 +5,7 @@ import "./CarouselComponent.css";
 
 export default function CarouselComponent({ img }) {
   return (
-    <div>
+    <div style={{ "max-width": "1000px", "margin-inline": "auto" }}>
       <Carousel
         autoPlay={true}
         infiniteLoop={true}

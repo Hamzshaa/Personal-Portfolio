@@ -11,8 +11,9 @@ import { FiExternalLink } from "react-icons/fi";
 // import { IoCheckboxOutline } from "react-icons/io5";
 // import { Carousel } from "react-responsive-carousel";
 import CarouselComponent from "../Carousel/CarouselComponent";
-import { metshaftImg } from "../Carousel/trident-metshaft/data";
-import { cheapDelalaImg } from "../Carousel/CheapDelala/data";
+import { metshaftImg } from "../../assets/trident-metshaft/data";
+import { cheapDelalaImg } from "../../assets/CheapDelala/data";
+import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   return (
@@ -85,6 +86,10 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="see-more__button">
+        <Link to="/portfolios">See All</Link>
       </div>
     </section>
   );
