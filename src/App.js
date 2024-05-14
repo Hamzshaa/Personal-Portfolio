@@ -22,9 +22,9 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/Personal-Portfolio" element={<Main />} />
 
-        <Route path="/portfolios" element={<Portfolios />} />
+        <Route path="/Personal-Portfolio/portfolios" element={<Portfolios />} />
       </Routes>
 
       <Footer />

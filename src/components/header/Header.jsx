@@ -20,7 +20,7 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav container">
-        <Link to="/" className="nav__logo">
+        <Link to="/Personal-Portfolio" className="nav__logo">
           ham
           <span className="nav__zz">zz</span>
           sha
@@ -30,7 +30,7 @@ function Header() {
           <ul className="nav__list grid">
             <li className="nav__item">
               <Link
-                to="/#home"
+                to="/Personal-Portfolio#home"
                 onClick={() => setActiveNav("#home")}
                 className={
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
@@ -42,7 +42,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <a
-                href="/#about"
+                href="/Personal-Portfolio#about"
                 onClick={() => setActiveNav("#about")}
                 className={
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
@@ -54,7 +54,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <a
-                href="/#skills"
+                href="/Personal-Portfolio#skills"
                 onClick={() => setActiveNav("#skills")}
                 className={
                   activeNav === "#skills"
@@ -68,7 +68,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <a
-                href="/#services"
+                href="/Personal-Portfolio#services"
                 onClick={() => setActiveNav("#services")}
                 className={
                   activeNav === "#services"
@@ -82,7 +82,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <Link
-                to="/portfolios"
+                to="/Personal-Portfolio/portfolios"
                 onClick={() => setActiveNav("#portfolio")}
                 className={
                   activeNav === "#portfolio"
@@ -91,12 +91,12 @@ function Header() {
                 }
               >
                 <IoImageOutline className="nav__icon" />
-                Portfolio
+                Portfolios
               </Link>
             </li>
             <li className="nav__item">
               <a
-                href="/#contact"
+                href="/Personal-Portfolio#contact"
                 onClick={() => setActiveNav("#contact")}
                 className={
                   activeNav === "#contact"
