@@ -89,7 +89,7 @@ export default function Portfolio() {
       </div>
 
       <div className="see-more__button">
-        <Link to="/portfolios">See All</Link>
+        <Link to="/Personal-Portfolio/portfolios">See All</Link>
       </div>
     </section>
   );
