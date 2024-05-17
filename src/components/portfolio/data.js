@@ -1,6 +1,8 @@
 import { metshaftImg } from "../../assets/trident-metshaft/data";
 import { cheapDelalaImg } from "../../assets/CheapDelala/data";
 import { cheapDelalaJavaImg } from "../../assets/CheapDelalaJava/data";
+import { ramadanCompanionImgs } from "../../assets/ramadan-companion/data";
+import { addisMusicImage } from "../../assets/addis-music/data";
 
 export const portfolioData = [
   {
@@ -26,5 +28,21 @@ export const portfolioData = [
       "The House Rental and Sale System developed in Java and Postgresql is a comprehensive platform designed to provide a user-friendly experience for individuals seeking to rent or purchase houses. With its intuitive user interface, users can easily navigate through the system's features. The system incorporates a chat system, allowing seamless communication between buyers and sellers to discuss property details, negotiate terms, and address any inquiries. Additionally, a secure payment system is integrated, enabling buyers to make payments conveniently and securely. The system also includes an advertising system, allowing users to post their houses for rent or sale, reaching a wider audience. As a broker, the system facilitates the agreement process, ensuring a smooth transaction. The broker earns a 5% commission from the agreement, ensuring a fair and profitable business model. Overall, this Java-based House Rental and Sale System offers a comprehensive solution for individuals looking to rent or purchase properties, streamlining the process and providing a user-friendly experience.",
     github: "",
     online: "",
+  },
+  {
+    imgs: ramadanCompanionImgs,
+    title: "Ramadan Companion",
+    description:
+      "📱 Ramadan Companion is a web application designed to be a helpful companion during the holy month of Ramadan. It provides المسلمين (Muslims) with essential information to enhance their Ramadan experience.",
+    github: "https://github.com/AmmarAdnew/Ramadan_proj",
+    online: "https://ramadan-camp.netlify.app/",
+  },
+  {
+    imgs: addisMusicImage,
+    title: "Addis Music",
+    description:
+      "'Addis Music' is a web application designed for playing and storing music. It incorporates robust authorization and authentication features to ensure secure access. The frontend of the application is built using React.js, utilizing styled components for styling and React-Redux along with Redux Saga for state management. On the backend, Express.js is used as the framework, while MongoDB serves as the database for storing music data. JSON Web Tokens (JWT) are employed for handling authentication and authorization processes. Together, these technologies provide a seamless and efficient experience for users to play and manage their music collection.",
+    github: "https://github.com/Hamzshaa/Addis-Music",
+    online: "https://addis-music-3jr7.onrender.com",
   },
 ];
