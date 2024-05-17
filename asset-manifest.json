@@ -1,34 +1,40 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.44c65b00.css",
-    "main.js": "/Personal-Portfolio/static/js/main.95fd1453.js",
+    "main.js": "/Personal-Portfolio/static/js/main.e17bd65d.js",
     "static/media/cheap-delala1.gif": "/Personal-Portfolio/static/media/cheap-delala1.a35572fd3add1cdb7def.gif",
     "static/media/cheap-delala3.PNG": "/Personal-Portfolio/static/media/cheap-delala3.6ed8f5f70d036f380d91.PNG",
     "static/media/cheap-delala2.png": "/Personal-Portfolio/static/media/cheap-delala2.ba77f10fab7318e4cec2.png",
     "static/media/Hamza_Jhad.pdf": "/Personal-Portfolio/static/media/Hamza_Jhad.9b64c73ddfc3afecd733.pdf",
+    "static/media/ramadan-companion4.png": "/Personal-Portfolio/static/media/ramadan-companion4.cdfceb090112d278bf8e.png",
     "static/media/d2.jpg": "/Personal-Portfolio/static/media/d2.3b06beb8daf083c0cc4d.jpg",
     "static/media/d3.jpg": "/Personal-Portfolio/static/media/d3.6906e78d5ffeff41cc8f.jpg",
     "static/media/d4.jpg": "/Personal-Portfolio/static/media/d4.7fe70db2f2788baf3d56.jpg",
+    "static/media/ramadan-companion3.jpg": "/Personal-Portfolio/static/media/ramadan-companion3.616d18e58b67f701225f.jpg",
     "static/media/d1.jpg": "/Personal-Portfolio/static/media/d1.13da146650495a123fb0.jpg",
+    "static/media/ramadan-companion1.jpg": "/Personal-Portfolio/static/media/ramadan-companion1.eeeb14a74d9c1963381e.jpg",
     "static/media/d5.jpg": "/Personal-Portfolio/static/media/d5.29eef49d7e719b58d4a3.jpg",
+    "static/media/ramadan-companion2.jpg": "/Personal-Portfolio/static/media/ramadan-companion2.6df550a0791aa0cf526f.jpg",
     "static/media/d6.jpg": "/Personal-Portfolio/static/media/d6.a413f74ce11b6121819d.jpg",
     "static/media/cheap-delala8.jpg": "/Personal-Portfolio/static/media/cheap-delala8.71f54c80e71a84cfd92c.jpg",
     "static/media/cheap-delala7.jpg": "/Personal-Portfolio/static/media/cheap-delala7.2c911349ddd162315394.jpg",
     "static/media/cheap-delala4.jpg": "/Personal-Portfolio/static/media/cheap-delala4.67786688bded05d4ecfa.jpg",
     "static/media/cheap-delala5.jpg": "/Personal-Portfolio/static/media/cheap-delala5.9b80986134d4598d6e40.jpg",
     "static/media/cheap-delala6.jpg": "/Personal-Portfolio/static/media/cheap-delala6.a753a0914bb5a96a2135.jpg",
+    "static/media/image1.jpg": "/Personal-Portfolio/static/media/image1.f34168695c5c84e9b1bb.jpg",
     "static/media/profile.jpg": "/Personal-Portfolio/static/media/profile.7d603a7b05c322543a79.jpg",
     "static/media/m1.jpg": "/Personal-Portfolio/static/media/m1.e96b51220191c177dac0.jpg",
     "static/media/m2.jpg": "/Personal-Portfolio/static/media/m2.fa52007aa0044d2e190f.jpg",
     "static/media/testimonial3.png": "/Personal-Portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/image2.jpg": "/Personal-Portfolio/static/media/image2.f424e02edee83b44b44a.jpg",
     "static/media/testimonial2.png": "/Personal-Portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/Personal-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/Personal-Portfolio/index.html",
     "main.44c65b00.css.map": "/Personal-Portfolio/static/css/main.44c65b00.css.map",
-    "main.95fd1453.js.map": "/Personal-Portfolio/static/js/main.95fd1453.js.map"
+    "main.e17bd65d.js.map": "/Personal-Portfolio/static/js/main.e17bd65d.js.map"
   },
   "entrypoints": [
     "static/css/main.44c65b00.css",
-    "static/js/main.95fd1453.js"
+    "static/js/main.e17bd65d.js"
   ]
 }
