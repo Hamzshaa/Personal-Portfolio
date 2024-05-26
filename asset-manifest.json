@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.44c65b00.css",
-    "main.js": "/Personal-Portfolio/static/js/main.e17bd65d.js",
+    "main.js": "/Personal-Portfolio/static/js/main.9cc844f3.js",
     "static/media/cheap-delala1.gif": "/Personal-Portfolio/static/media/cheap-delala1.a35572fd3add1cdb7def.gif",
     "static/media/cheap-delala3.PNG": "/Personal-Portfolio/static/media/cheap-delala3.6ed8f5f70d036f380d91.PNG",
     "static/media/cheap-delala2.png": "/Personal-Portfolio/static/media/cheap-delala2.ba77f10fab7318e4cec2.png",
@@ -31,10 +31,10 @@
     "static/media/testimonial1.png": "/Personal-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/Personal-Portfolio/index.html",
     "main.44c65b00.css.map": "/Personal-Portfolio/static/css/main.44c65b00.css.map",
-    "main.e17bd65d.js.map": "/Personal-Portfolio/static/js/main.e17bd65d.js.map"
+    "main.9cc844f3.js.map": "/Personal-Portfolio/static/js/main.9cc844f3.js.map"
   },
   "entrypoints": [
     "static/css/main.44c65b00.css",
-    "static/js/main.e17bd65d.js"
+    "static/js/main.9cc844f3.js"
   ]
 }
