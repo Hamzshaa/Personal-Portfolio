@@ -43,6 +43,6 @@ export const portfolioData = [
     description:
       "'Addis Music' is a web application designed for playing and storing music. It incorporates robust authorization and authentication features to ensure secure access. The frontend of the application is built using React.js, utilizing styled components for styling and React-Redux along with Redux Saga for state management. On the backend, Express.js is used as the framework, while MongoDB serves as the database for storing music data. JSON Web Tokens (JWT) are employed for handling authentication and authorization processes. Together, these technologies provide a seamless and efficient experience for users to play and manage their music collection.",
     github: "https://github.com/Hamzshaa/Addis-Music",
-    online: "https://addis-music-3jr7.onrender.com",
+    online: "https://addis-musics-aex2.onrender.com",
   },
 ];
