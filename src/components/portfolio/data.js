@@ -3,6 +3,9 @@ import { cheapDelalaImg } from "../../assets/CheapDelala/data";
 import { cheapDelalaJavaImg } from "../../assets/CheapDelalaJava/data";
 import { ramadanCompanionImgs } from "../../assets/ramadan-companion/data";
 import { addisMusicImage } from "../../assets/addis-music/data";
+import { evangadiForumImgs } from "../../assets/evangadi-forum/data";
+import { amazonCloneImgs } from "../../assets/amazon-clone/data";
+import { netflixCloneImgs } from "../../assets/netflix-clone/data";
 
 export const portfolioData = [
   {
@@ -44,5 +47,29 @@ export const portfolioData = [
       "'Addis Music' is a web application designed for playing and storing music. It incorporates robust authorization and authentication features to ensure secure access. The frontend of the application is built using React.js, utilizing styled components for styling and React-Redux along with Redux Saga for state management. On the backend, Express.js is used as the framework, while MongoDB serves as the database for storing music data. JSON Web Tokens (JWT) are employed for handling authentication and authorization processes. Together, these technologies provide a seamless and efficient experience for users to play and manage their music collection.",
     github: "https://github.com/Hamzshaa/Addis-Music",
     online: "https://addis-musics-aex2.onrender.com",
+  },
+  {
+    imgs: evangadiForumImgs,
+    title: "Evangadi Forum",
+    description:
+      "Evangadi Forum is an online QA platform for posting questions and answers done as a project for a MERN Stack bootcamp run by Evangadi Tech. The forum has a frontend and backend component with a RESTful API",
+    github: "https://github.com/Hamzshaa/EvangadiForum",
+    online: "https://evangadiforum-ioew.onrender.com",
+  },
+  {
+    imgs: amazonCloneImgs,
+    title: "Amazon Clone",
+    description:
+      "Amazon Clone is a web application that replicates the functionality of the Amazon website. It features a user-friendly interface that allows users to browse products, add items to their cart, and proceed to checkout. The application integrates authentication and authorization, ensuring secure access for users. Additionally, the application includes a payment system that allows users to make purchases using their credit card information. Overall, the Amazon Clone provides a seamless and efficient shopping experience for users, offering a wide range of products and services.",
+    github: "https://github.com/Hamzshaa/amazon-clone",
+    online: "https://amazon-clone-87v0.onrender.com",
+  },
+  {
+    imgs: netflixCloneImgs,
+    title: "Netflix Clone",
+    description:
+      "Netflix Clone is a web application that replicates the functionality of the Netflix website. It features a user-friendly interface that allows users to browse movies and TV shows, and also view trailers.",
+    github: "https://github.com/Hamzshaa/netflix-clone",
+    online: "https://amazon-clone-87v0.onrender.com/",
   },
 ];

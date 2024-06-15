@@ -12,7 +12,8 @@ import { FiExternalLink } from "react-icons/fi";
 // import { Carousel } from "react-responsive-carousel";
 import CarouselComponent from "../Carousel/CarouselComponent";
 import { metshaftImg } from "../../assets/trident-metshaft/data";
-import { cheapDelalaImg } from "../../assets/CheapDelala/data";
+import { evangadiForumImgs } from "../../assets/evangadi-forum/data";
+// import { cheapDelalaImg } from "../../assets/CheapDelala/data";
 import { Link } from "react-router-dom";
 
 export default function Portfolio() {
@@ -55,6 +56,41 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="portfolio__content">
+          <CarouselComponent img={evangadiForumImgs} />
+
+          <div className="portfolio__info">
+            <div className="">
+              <h3 className="portfolio__title">Evangadi Forum</h3>
+              <h3 className="portfolio__description">
+                Evangadi Forum is an online QA platform for posting questions
+                and answers done as a project for a MERN Stack bootcamp run by
+                Evangadi Tech. The forum has a frontend and backend component
+                with a RESTful API
+              </h3>
+            </div>
+            <div className="portfolio__buttons">
+              <div className="portfolio__github">
+                <a
+                  href="https://github.com/Hamzshaa/EvangadiForum"
+                  target="_blank"
+                >
+                  <IoLogoGithub className="portfolio__button-icon" />
+                  Github
+                </a>
+              </div>
+              <div className="portfolio__online">
+                <a
+                  href="https://evangadiforum-ioew.onrender.com"
+                  target="_blank"
+                >
+                  <FiExternalLink className="portfolio__button-icon" />
+                  Online
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="portfolio__content">
           <CarouselComponent img={cheapDelalaImg} />
 
           <div className="portfolio__info">
@@ -85,7 +121,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="see-more__button">

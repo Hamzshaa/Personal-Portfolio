@@ -149,6 +149,27 @@ function Qualification() {
             {/* ---------- */}
 
             <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Web Developer</h3>
+                <span className="qualification__subtitle">
+                  Fineto IOT Products (Intern)
+                </span>
+
+                <div className="qualification__calender">
+                  <LuCalendarDays />
+                  2024
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">UX/UI Designer</h3>
                 <span className="qualification__subtitle">RDX (Intern)</span>
