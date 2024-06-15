@@ -1,10 +1,15 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.44c65b00.css",
-    "main.js": "/Personal-Portfolio/static/js/main.9cc844f3.js",
+    "main.js": "/Personal-Portfolio/static/js/main.85c6c727.js",
+    "static/media/img2.png": "/Personal-Portfolio/static/media/img2.535e75fec88e35e1f7c6.png",
+    "static/media/img3.png": "/Personal-Portfolio/static/media/img3.ec7ab8e8816f271526cb.png",
+    "static/media/img4.png": "/Personal-Portfolio/static/media/img4.95d6bab12bedf203e722.png",
     "static/media/cheap-delala1.gif": "/Personal-Portfolio/static/media/cheap-delala1.a35572fd3add1cdb7def.gif",
+    "static/media/img5.png": "/Personal-Portfolio/static/media/img5.7f84ce48597e7fda4e8c.png",
     "static/media/cheap-delala3.PNG": "/Personal-Portfolio/static/media/cheap-delala3.6ed8f5f70d036f380d91.PNG",
     "static/media/cheap-delala2.png": "/Personal-Portfolio/static/media/cheap-delala2.ba77f10fab7318e4cec2.png",
+    "static/media/img1.png": "/Personal-Portfolio/static/media/img1.cf679b100920c9024fed.png",
     "static/media/Hamza_Jhad.pdf": "/Personal-Portfolio/static/media/Hamza_Jhad.9b64c73ddfc3afecd733.pdf",
     "static/media/ramadan-companion4.png": "/Personal-Portfolio/static/media/ramadan-companion4.cdfceb090112d278bf8e.png",
     "static/media/d2.jpg": "/Personal-Portfolio/static/media/d2.3b06beb8daf083c0cc4d.jpg",
@@ -14,6 +19,7 @@
     "static/media/d1.jpg": "/Personal-Portfolio/static/media/d1.13da146650495a123fb0.jpg",
     "static/media/ramadan-companion1.jpg": "/Personal-Portfolio/static/media/ramadan-companion1.eeeb14a74d9c1963381e.jpg",
     "static/media/d5.jpg": "/Personal-Portfolio/static/media/d5.29eef49d7e719b58d4a3.jpg",
+    "static/media/img1.jpeg": "/Personal-Portfolio/static/media/img1.50d5b5d5e8727058e104.jpeg",
     "static/media/ramadan-companion2.jpg": "/Personal-Portfolio/static/media/ramadan-companion2.6df550a0791aa0cf526f.jpg",
     "static/media/d6.jpg": "/Personal-Portfolio/static/media/d6.a413f74ce11b6121819d.jpg",
     "static/media/cheap-delala8.jpg": "/Personal-Portfolio/static/media/cheap-delala8.71f54c80e71a84cfd92c.jpg",
@@ -31,10 +37,10 @@
     "static/media/testimonial1.png": "/Personal-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/Personal-Portfolio/index.html",
     "main.44c65b00.css.map": "/Personal-Portfolio/static/css/main.44c65b00.css.map",
-    "main.9cc844f3.js.map": "/Personal-Portfolio/static/js/main.9cc844f3.js.map"
+    "main.85c6c727.js.map": "/Personal-Portfolio/static/js/main.85c6c727.js.map"
   },
   "entrypoints": [
     "static/css/main.44c65b00.css",
-    "static/js/main.9cc844f3.js"
+    "static/js/main.85c6c727.js"
   ]
 }
