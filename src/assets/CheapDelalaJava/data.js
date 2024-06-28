@@ -1,5 +1,5 @@
 import img1 from "../../assets/CheapDelalaJava/cheap-delala2.png";
-import img2 from "../../assets/CheapDelalaJava/cheap-delala3.PNG";
+import img2 from "../../assets/CheapDelalaJava/cheap-delala3.png";
 import img3 from "../../assets/CheapDelalaJava/cheap-delala4.jpg";
 import img4 from "../../assets/CheapDelalaJava/cheap-delala5.jpg";
 import img5 from "../../assets/CheapDelalaJava/cheap-delala6.jpg";
