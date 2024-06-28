@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.44c65b00.css",
-    "main.js": "/Personal-Portfolio/static/js/main.85c6c727.js",
+    "main.js": "/Personal-Portfolio/static/js/main.32e807d7.js",
     "static/media/img2.png": "/Personal-Portfolio/static/media/img2.535e75fec88e35e1f7c6.png",
     "static/media/img3.png": "/Personal-Portfolio/static/media/img3.ec7ab8e8816f271526cb.png",
     "static/media/img4.png": "/Personal-Portfolio/static/media/img4.95d6bab12bedf203e722.png",
@@ -10,7 +10,6 @@
     "static/media/cheap-delala3.PNG": "/Personal-Portfolio/static/media/cheap-delala3.6ed8f5f70d036f380d91.PNG",
     "static/media/cheap-delala2.png": "/Personal-Portfolio/static/media/cheap-delala2.ba77f10fab7318e4cec2.png",
     "static/media/img1.png": "/Personal-Portfolio/static/media/img1.cf679b100920c9024fed.png",
-    "static/media/Hamza_Jhad.pdf": "/Personal-Portfolio/static/media/Hamza_Jhad.9b64c73ddfc3afecd733.pdf",
     "static/media/ramadan-companion4.png": "/Personal-Portfolio/static/media/ramadan-companion4.cdfceb090112d278bf8e.png",
     "static/media/d2.jpg": "/Personal-Portfolio/static/media/d2.3b06beb8daf083c0cc4d.jpg",
     "static/media/d3.jpg": "/Personal-Portfolio/static/media/d3.6906e78d5ffeff41cc8f.jpg",
@@ -25,6 +24,7 @@
     "static/media/cheap-delala8.jpg": "/Personal-Portfolio/static/media/cheap-delala8.71f54c80e71a84cfd92c.jpg",
     "static/media/cheap-delala7.jpg": "/Personal-Portfolio/static/media/cheap-delala7.2c911349ddd162315394.jpg",
     "static/media/cheap-delala4.jpg": "/Personal-Portfolio/static/media/cheap-delala4.67786688bded05d4ecfa.jpg",
+    "static/media/Hamza_Jhad.pdf": "/Personal-Portfolio/static/media/Hamza_Jhad.a2e7c702859e13380d15.pdf",
     "static/media/cheap-delala5.jpg": "/Personal-Portfolio/static/media/cheap-delala5.9b80986134d4598d6e40.jpg",
     "static/media/cheap-delala6.jpg": "/Personal-Portfolio/static/media/cheap-delala6.a753a0914bb5a96a2135.jpg",
     "static/media/image1.jpg": "/Personal-Portfolio/static/media/image1.f34168695c5c84e9b1bb.jpg",
@@ -37,10 +37,10 @@
     "static/media/testimonial1.png": "/Personal-Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/Personal-Portfolio/index.html",
     "main.44c65b00.css.map": "/Personal-Portfolio/static/css/main.44c65b00.css.map",
-    "main.85c6c727.js.map": "/Personal-Portfolio/static/js/main.85c6c727.js.map"
+    "main.32e807d7.js.map": "/Personal-Portfolio/static/js/main.32e807d7.js.map"
   },
   "entrypoints": [
     "static/css/main.44c65b00.css",
-    "static/js/main.85c6c727.js"
+    "static/js/main.32e807d7.js"
   ]
 }
