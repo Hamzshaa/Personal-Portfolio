@@ -22,7 +22,7 @@ function About() {
             client expectations.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          {/* <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
               class="button__icon"
@@ -49,7 +49,7 @@ function About() {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

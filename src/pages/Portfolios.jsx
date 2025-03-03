@@ -2,6 +2,7 @@ import PortfolioCard from "../components/portfolio/PortfolioCard";
 import { portfolioData } from "../components/portfolio/data";
 
 export default function Portfolios() {
+  console.log(portfolioData);
   return (
     <section className="portfolio section container" id="portfolio">
       {portfolioData.map((portfolio, index) => (

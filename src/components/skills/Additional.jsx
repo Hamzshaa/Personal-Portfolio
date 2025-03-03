@@ -45,11 +45,7 @@ function Additional() {
           <div className="skills__data">
             <LuBadgeCheck className="bx-badge-check" />
             <div>
-              <h3 className="skills__name">
-                Software Project
-                <br />
-                Management
-              </h3>
+              <h3 className="skills__name">C#</h3>
               {/* <span className="skills__level">Advanced</span> */}
             </div>
           </div>

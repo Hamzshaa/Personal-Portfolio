@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 dist
+build
 dist-ssr
 *.local
 /dist
@@ -25,3 +26,7 @@ node_modules
 *.sln
 *.sw?
 node_modules
+
+
+# Zip Files
+*.zip

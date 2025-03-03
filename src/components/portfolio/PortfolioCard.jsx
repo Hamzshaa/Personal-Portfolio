@@ -20,12 +20,12 @@ export default function PortfolioCard({
           <h3 className="portfolio__description">{description}</h3>
         </div>
         <div className="portfolio__buttons">
-          <div className={`portfolio__github ${!github && "disabled"}`}>
+          {/* <div className={`portfolio__github ${!github && "disabled"}`}>
             <a href={github} target="_blank">
               <IoLogoGithub className="portfolio__button-icon" />
               Github
             </a>
-          </div>
+          </div> */}
           <div className={`portfolio__online ${!online && "disabled"}`}>
             <a href={online} target="_blank">
               <FiExternalLink className="portfolio__button-icon " />

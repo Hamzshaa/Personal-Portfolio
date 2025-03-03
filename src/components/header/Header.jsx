@@ -20,7 +20,7 @@ function Header() {
   return (
     <header className="header">
       <nav className="nav container">
-        <Link to="/Personal-Portfolio" className="nav__logo">
+        <Link to="/" className="nav__logo">
           ham
           <span className="nav__zz">zz</span>
           sha
@@ -30,7 +30,7 @@ function Header() {
           <ul className="nav__list grid">
             <li className="nav__item">
               <Link
-                to="/Personal-Portfolio#home"
+                to="/#home"
                 onClick={() => setActiveNav("#home")}
                 className={
                   activeNav === "#home" ? "nav__link active-link" : "nav__link"
@@ -42,7 +42,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <a
-                href="/Personal-Portfolio#about"
+                href="/#about"
                 onClick={() => setActiveNav("#about")}
                 className={
                   activeNav === "#about" ? "nav__link active-link" : "nav__link"
@@ -54,7 +54,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <a
-                href="/Personal-Portfolio#skills"
+                href="/#skills"
                 onClick={() => setActiveNav("#skills")}
                 className={
                   activeNav === "#skills"
@@ -68,7 +68,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <a
-                href="/Personal-Portfolio#services"
+                href="/#services"
                 onClick={() => setActiveNav("#services")}
                 className={
                   activeNav === "#services"
@@ -82,7 +82,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <Link
-                to="/Personal-Portfolio/portfolios"
+                to="/portfolios"
                 onClick={() => setActiveNav("#portfolio")}
                 className={
                   activeNav === "#portfolio"
@@ -96,7 +96,7 @@ function Header() {
             </li>
             <li className="nav__item">
               <a
-                href="/Personal-Portfolio#contact"
+                href="/#contact"
                 onClick={() => setActiveNav("#contact")}
                 className={
                   activeNav === "#contact"

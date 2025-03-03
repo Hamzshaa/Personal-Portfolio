@@ -6,18 +6,17 @@ import Qualification from "../components/qualification/Qualification";
 import Services from "../components/services/Services";
 import Skills from "../components/skills/Skills";
 
-
-export default function () {
-    return (
-        <main className="main">
-              <Home />
-              <About />
-              <Skills />
-              <Services />
-              <Qualification />
-              <Portfolio />
-              {/* <Testimonials /> */}
-              <Contact />
-            </main>
-    )
+export default function main() {
+  return (
+    <main className="main">
+      <Home />
+      <About />
+      <Skills />
+      <Services />
+      <Qualification />
+      <Portfolio />
+      {/* <Testimonials /> */}
+      <Contact />
+    </main>
+  );
 }

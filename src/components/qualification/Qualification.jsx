@@ -149,6 +149,24 @@ function Qualification() {
             {/* ---------- */}
 
             <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Full-stack Developer</h3>
+                <span className="qualification__subtitle">
+                  BirtuCan Software
+                </span>
+
+                <div className="qualification__calender">
+                  <LuCalendarDays /> 2024 - 2025
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div></div>
 
               <div>

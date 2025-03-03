@@ -15,6 +15,8 @@ import { metshaftImg } from "../../assets/trident-metshaft/data";
 import { evangadiForumImgs } from "../../assets/evangadi-forum/data";
 // import { cheapDelalaImg } from "../../assets/CheapDelala/data";
 import { Link } from "react-router-dom";
+import { cloudsunImgs } from "../../assets/cloudsun/data";
+import { saramallImgs } from "../../assets/saramall/data";
 
 export default function Portfolio() {
   return (
@@ -23,31 +25,35 @@ export default function Portfolio() {
       <span className="section__subtitle">my portfolios</span>
       <div className="portfolio__container container grid">
         <div className="portfolio__content">
-          <CarouselComponent img={metshaftImg} />
+          <CarouselComponent img={saramallImgs} />
 
           <div className="portfolio__info">
             <div className="">
-              <h3 className="portfolio__title">Trident Metshaft</h3>
+              <h3 className="portfolio__title">
+                Sara-Mall Building Management System
+              </h3>
               <h3 className="portfolio__description">
-                Trident Metshaft is a book journey tracker website with progress
-                tracking functionality. It features an attractive and
-                user-friendly admin dashboard for efficient management of book
-                data. The website integrates authentication and authorization,
-                including Google authentication, to ensure secure access for
-                users. Additionally, a notification system has been implemented,
-                allowing administrators to send notifications to users
-                individually or collectively.
+                The Sara Mall Building Management System is a comprehensive
+                platform designed to simplify and automate the daily operations
+                of mall administration. From managing tenant applications and
+                rental agreements to tracking room availability and overseeing
+                staff, the system ensures smooth coordination and reduced
+                paperwork. With features like real-time announcements, built-in
+                chat support, automated payment reminders, and detailed
+                financial and occupancy reports, Sara Mall BMS creates an
+                efficient, transparent, and connected experience for both
+                tenants and administrators. Online
               </h3>
             </div>
             <div className="portfolio__buttons">
-              <div className="portfolio__github">
+              {/* <div className="portfolio__github">
                 <a href="https://github.com/Hamzshaa/Metshaft" target="_blank">
                   <IoLogoGithub className="portfolio__button-icon" />
                   Github
                 </a>
-              </div>
+              </div> */}
               <div className="portfolio__online">
-                <a href="https://metshaft.onrender.com/" target="_blank">
+                <a href="https://saramall-et.com/" target="_blank">
                   <FiExternalLink className="portfolio__button-icon " />
                   Online
                 </a>
@@ -56,20 +62,28 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="portfolio__content">
-          <CarouselComponent img={evangadiForumImgs} />
+          <CarouselComponent img={cloudsunImgs} />
 
           <div className="portfolio__info">
             <div className="">
-              <h3 className="portfolio__title">Evangadi Forum</h3>
+              <h3 className="portfolio__title">
+                Cloud Sun Café: Restaurant Management System
+              </h3>
               <h3 className="portfolio__description">
-                Evangadi Forum is an online QA platform for posting questions
-                and answers done as a project for a MERN Stack bootcamp run by
-                Evangadi Tech. The forum has a frontend and backend component
-                with a RESTful API
+                The Cloud Sun Café Restaurant Management System is an all-in-one
+                solution designed to optimize and simplify daily restaurant
+                operations. With real-time ingredient tracking, flexible menu
+                management, and seamless order processing, it helps ensure
+                smooth service and accurate kitchen coordination. The system
+                also provides automated reports and in-depth sales analytics,
+                empowering restaurant owners to make data-driven decisions. With
+                secure admin controls and efficient workflows, Cloud Sun Café
+                RMS enhances both operational efficiency and the overall dining
+                experience.
               </h3>
             </div>
             <div className="portfolio__buttons">
-              <div className="portfolio__github">
+              {/* <div className="portfolio__github">
                 <a
                   href="https://github.com/Hamzshaa/EvangadiForum"
                   target="_blank"
@@ -77,12 +91,9 @@ export default function Portfolio() {
                   <IoLogoGithub className="portfolio__button-icon" />
                   Github
                 </a>
-              </div>
+              </div> */}
               <div className="portfolio__online">
-                <a
-                  href="https://evangadiforum-ioew.onrender.com"
-                  target="_blank"
-                >
+                <a href="https://cloudsuncafe.com/" target="_blank">
                   <FiExternalLink className="portfolio__button-icon" />
                   Online
                 </a>

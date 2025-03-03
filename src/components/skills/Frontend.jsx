@@ -70,7 +70,7 @@ function Frontend() {
             <LuBadgeCheck className="bx-badge-check" />
 
             <div>
-              <h3 className="skills__name">Tailwind CSS</h3>
+              <h3 className="skills__name">Astro.js</h3>
               {/* <span className="skills__level">Advanced</span> */}
             </div>
           </div>
@@ -79,7 +79,7 @@ function Frontend() {
             <LuBadgeCheck className="bx-badge-check" />
 
             <div>
-              <h3 className="skills__name">Bootstrap</h3>
+              <h3 className="skills__name">Tailwind</h3>
               {/* <span className="skills__level">Advanced</span> */}
             </div>
           </div>
@@ -88,7 +88,7 @@ function Frontend() {
             <LuBadgeCheck className="bx-badge-check" />
 
             <div>
-              <h3 className="skills__name">Redux toolkit</h3>
+              <h3 className="skills__name">Redux</h3>
               {/* <span className="skills__level">Advanced</span> */}
             </div>
           </div>
